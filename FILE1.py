@@ -808,8 +808,8 @@ def ___metode___():
             ids=open(___file___).read().splitlines()
         except:
             exit("%s[%s!%s]%s File Not Found"%(P,M,P,M))
-        print("\n%s[%sâ€¢%s]%s MATEEN Ok  :%s Results/Ok.txt"%(B,P,B,P,H))
-        print("%s[%sâ€¢%s]%s MATEEN Cp :%s Results/Cp.txt"%(B,P,B,P,K))
+        print("\n%s[%sâ€¢%s]%s HANNAN-Ok  :%s Results/Ok.txt"%(B,P,B,P,H))
+        print("%s[%sâ€¢%s]%s HANNAN-Cp :%s Results/Cp.txt"%(B,P,B,P,K))
         print("%s[%s!%s]%s Crack With Auto Passwords 1000,2000...\n"%(B,M,B,P))
         with ThreadPoolExecutor(max_workers=35) as (hayuk):
             for user in ids:
