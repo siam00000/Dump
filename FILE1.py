@@ -346,7 +346,7 @@ def ___masal3___():
         ___ids___ = raw_input("%s[%s%s%s]%s User :%s "%(B,P,zx,B,P,H))
         print(" ")
         if ___ids___ in ['',' ']:
-            exit("%s[%s!%s]%s Pagal%(P,M,P,M))
+            exit("%s[%s!%s]%s Pagal"%(P,M,P,M))
         try:
             rex = requests.get("https://graph.facebook.com/%s?fields=friends.limit(50000)&access_token=%s"%(___ids___,___token___)).json()
             file = open(___file___ , 'a')
