@@ -236,7 +236,7 @@ def ___menu___():
             exit("%s[%s!%s]%s Wrong Input"%(P,M,P,M))
     elif ___menu___ in ['12']:
         print("%s[%s*%s]%s Contact Me On FB"%(B,P,B,P));sleep(2)
-        os.system("xdg-open https://wa.me/+923188212?text=Hallo%20Bang%20Rozhak")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100023690641454")
         exit()
     elif ___menu___ in ['13']:
         os.system('rm -rf login.txt')
